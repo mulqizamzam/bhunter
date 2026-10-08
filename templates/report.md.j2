@@ -1,0 +1,10 @@
+# Bug Hunter Report
+
+{% for f in findings %}
+## {{ f.url }}
+- Status: {{ f.status }}
+- Length: {{ f.length }}
+- Server: {{ f.server }}
+- Content-Type: {{ f.content_type }}
+
+{% endfor %}

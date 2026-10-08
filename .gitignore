@@ -1,5 +1,19 @@
-# Object file
-*.o
+# Python bytecode
+__pycache__/
+*.pyc
 
-# Ada Library Information
-*.ali
+# Packaging output
+*.egg-info/
+dist/
+build/
+
+# Local environments and installs
+.venv/
+.pylibs/
+.pip-cache/
+
+# Tool caches
+.pytest_cache/
+
+# Run output: lists the URLs that were probed
+scan.json

